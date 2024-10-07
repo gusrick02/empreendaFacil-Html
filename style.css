@@ -1,0 +1,237 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(4, 4, 70);
+    padding: 10px 20px;
+    color: white;
+}
+
+.menu-icon,
+.settings-icon,
+.cart-icon {
+    font-size: 24px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.membership {
+    font-size: 12px;
+    margin-right: 50px;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-bar {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    background-color: #d0bcff;
+    border-radius: 20px;
+}
+
+.search-btn {
+    padding: 10px;
+    background: rgb(4, 4, 70);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.arrow {
+    background: rgb(4, 4, 70);
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.company-card {
+    box-shadow: 20px -15px 0px #13005E;
+    background-color: #BCB9C8;
+    border-radius: 30px;
+    padding: 20px;
+    width: 250px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.company-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    background: rgb(4, 4, 70);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background: rgb(4, 4, 70);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto; /* Faz o rodapé empurrar para baixo */
+}
+
+.footer-content {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-section ul {
+    list-style: none;
+    background: rgb(4, 4, 70);
+    padding: 0;
+}
+
+.footer-section ul li a {
+    display: inline;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-links a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+#imagem {
+    border-radius: 50%;
+    position: absolute;
+    top: 1px; /* Ajuste a distância do topo */
+    right: 10px; /* Ajuste a distância da direita */
+    width: 30px; /* Mantém o tamanho definido */
+}
+
+.botao-personalizado {
+    background: rgb(4, 4, 70);
+    color: white;
+    border: 10px;
+    padding: 15px;
+    width: 180px;
+    border-radius: 15px;
+    margin-left: 450px;
+    font-size: 15px;
+}
+
+.botao-personalizado2 {
+    background: rgb(4, 4, 70);
+    color: white;
+    border: 10px;
+    padding: 15px;
+    width: 280px;
+    border-radius: 15px;
+    margin-left: 830px;
+    font-size: 15px;
+    
+}
+
+.seta{
+    margin-left: 608px;
+   margin-top: -30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #EDEFF4; /* Cor do fundo do container */
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-image: url('img/retrato-de-homem-elegante-sorrindo_23-2148448885.avif'); /* Substitua pela URL da imagem */
+    background-size: cover;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: bold;
+    color: #0088cc; /* Cor do texto do nome */
+}
+
+.status {
+    font-size: 14px;
+    color: grey;
+}
+
+
+
